@@ -1,5 +1,8 @@
 "use strict"
 
+let age = prompt('Сколько тебе лет?', "");
+alert(`Тебе ${age} лет!`);
+
 const numberOfFilms = +prompt('Сколько фильмов вы уже посмотрели?', '');
 
 const personalMovieDB = {
