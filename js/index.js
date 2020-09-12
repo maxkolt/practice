@@ -1,7 +1,7 @@
 "use strict"
 
+//задание 1
 const numberOfFilms = +prompt('Сколько фильмов вы уже посмотрели?', '');
-
 const personalMovieDB = {
     count: numberOfFilms,
     movies: {},
@@ -18,7 +18,7 @@ const a = prompt('Один из последних просмотренных ф
 personalMovieDB.movies[a] = b;
 personalMovieDB.movies[c] = d;
 
-
+//задание 2
 for (let i = 0; i < 2; i++) {
     const a = prompt('Один из последних просмотренных фильмов?', ''),
         b = prompt('На сколько оцените его?', '');
@@ -44,7 +44,7 @@ if (personalMovieDB.count < 10) {
 
 console.log(personalMovieDB);
 
-
+//задание 3
 function showMyDB(hidden) {
     if (!hidden) {
         console.log(personalMovieDB);
